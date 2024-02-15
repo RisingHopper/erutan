@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Work+Sans:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Source+Sans+Pro:wght@400;600;700&family=Work+Sans:wght@200;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Source+Sans+Pro:wght@400;600;700&family=Work+Sans:wght@200;300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 0;
+}
+body{
+    background-image: linear-gradient(#faeaab,#f5daff);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*FONT SIZES*/
+.g--font-size-16{
+    font-size: 16px !important;
+}
+.g--font-size-18{
+    font-size: 18px !important;
+}
+.g--font-size-20{
+    font-size: 20px !important;
+}
+.g--font-size-22{
+    font-size: 22px;
+}
+.g--font-size-24{
+    font-size: 24px;
+}
+.g--font-size-26{
+    font-size: 26px;
+}
+.g--font-size-30{
+    font-size: 30px;
+}
+.g--font-size-40{
+    font-size: 40px;
+}
+.g--font-size-55{
+    font-size: 55px;
+}
+
+/*TEXT COLOR*/
+.g--color-ff74fc{
+    color:#ff74fc !important;
+}
+.g--color-b5a7a7{
+    color: #b5a7a7;
+}
+.g--color-lightskyblue{
+    color: lightskyblue !important;
+}
+
+/*BACKGROUND COLOR*/
+.g--bg-yellow{
+    background-color: yellow;
+}
+.g--bg-blue{
+    background-color: blue;
+}
+.g--bg-red{
+    background-color: red;
+}
+.g--bg-lightskyblue{
+    background-color:  lightskyblue;
+}
+.g--bg-lightblue{
+    background-color: lightblue;
+}
+.g--bg-5f6caf{
+    background-color: #5f6caf;
+}
+.g--bg-feffdf{
+    background-color: #ffa952;
+}
+.g--bg-ff74fc{
+    background-color:#ff74fc !important;
+}
+
+/*BACKGROUND IMAGES*/
+.g--bg-img-nature{
+    background-image: url(../img/nature.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.g--bg-img-newsletter{
+    background-image: url(../img/source.gif);
+    background-size: cover;
+}
+.g--bg-img-form{
+    background-image: linear-gradient(rgba(41, 242, 219, 0.265),rgba(205, 7, 236, 0.314) ), url(../img/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 6px solid;
+}
+.g--bg-img-foro{
+    background-image: linear-gradient(#faeaab8e, #f5daff94), url(../img/chat2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.g--bg-newsletter{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/backend-newsletter.jpg);
+    background-size: cover;
+}
+.g--bg-newsletter-database{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/backend-newsletter-database.jpg);
+    background-size: cover;
+}
+.g--bg-dashboard{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/backend-dashboard.jpg);
+    background-size: cover;
+}
+.g--bg-content{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/backend-content.jpg);
+    background-size: cover;
+}
+.g--bg-users{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/formLego.jpg);
+    background-size: cover;
+}
+.g--bg-about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/aboutErutan.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.g--bg-cookies{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/cookiesPage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.g--bg-privacidad{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../img/privacidad.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.g--bg-community{
+    background-image: linear-gradient(#234efb5a,#c029db4f),url("../img/communityBanner.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.g--bg-faqs{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url("../img/formPenguin.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.g--bg-question{
+    background-image: url("../img/question.jpg");
+    background-size: cover;
+    background-position: left;
+}
+
+/*BORDERS*/
+.g--border-white{
+    border: 1.5px solid white;
+} 
+.g--border-black{
+    border: 1.5px solid black;
+}
+.g--border-black-topBottom{
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+}  
+/* .g--border-black{
+    border: 2px solid black;
+}
+.g--border-white{
+    border: 2px solid white;
+} */
+.g--border-grey{
+    border: 2px solid grey;
+}
+.g--border-inset{
+    border: 6px inset;
+}
+.g--border-bottom-white{
+    border-bottom: 2px solid white;
+}
+.g--border-bottom-grey{
+    border-bottom: 2px solid grey;
+}
+.g--border-right-white-5{
+    border-right: 5px solid white;
+}
+
+/*WIDTH AND HEIGHT*/
+.g--max-width-1440{
+    max-width: 1440px;
+}
+.g-width-100x{
+    width: 100%;
+}
+.g--width-180{
+    width: 180px;
+}
+.g--width-230{
+    width: 230px;
+}
+.g--width-240{
+    width: 240px;
+}
+.g--width-250{
+    width: 250px;
+}
+.g--width-270{
+    width: 270px;
+}
+.g--width-290{
+    width: 290px;
+}
+.g--width-415{
+    width: 100%;
+}
+.g--height-5vh{
+    height: 5vh;
+}
+.g--height-40{
+    height: 40px !important;
+}
+.g--height-50{
+    height: 50px !important;
+}
+.g--height-100{
+    height: 100px !important;
+}
+.g--min-height-50{
+    min-height: 50px !important;
+}
+.g--height-70{
+    height: 70px !important;
+}
+.g--height-80{
+    height: 80px;
+}
+.g--height-150{
+    height: 150px;
+}
+.g--height-233{
+    height: 220.5px;
+}
+.g--height-220{
+    height: 220.5px;
+}
+.g--height-440{
+    height: 440px;
+}
+.g--height-550{
+    height: 550px;
+}
+.g--height-290{
+    height: 290px;
+}
+
+
+
+/*HOVER*/
+.g-hover-btn-white :hover{
+    background-color: black !important;
+    color: white !important;
+}
+.g--hover-btn-pink:hover{
+    background-color: #ff74fc !important;
+    color: white;
+}
+.g--hover-black-text:hover{
+    color: black !important;
+}
+.g--hover-black-pink:hover{
+    color: #ff74fc !important;
+}
+.g--hover-white-text:hover{
+    color: white !important;
+}
+.g--hover-lightskyblue-text:hover{
+    color: lightskyblue !important;
+}
+.g--hover-bg-black:hover{
+    background-color: black !important;
+}
+.g--hover-bg-white:hover{
+    background-color: white !important;
+}
+
+/*TEXT ALIGN*/
+.g--text-justify{
+    text-align: justify;
+}
+
+
+
+
+
+.card__title{
+    text-align: center;
+    color:#ff74fc;
+    font-size: 1.4rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.g--font-family-workSans{
+    font-family: 'Work Sans', sans-serif;
+}
+.g--shadow-img{
+    box-shadow: 3px 3px 6px;
+}
+.g--shadow-question{
+    box-shadow: 5px 5px 6px;
+}
+.g--question-title-style{
+    font-size: 2.6rem;
+    font-weight: 700;
+    background: linear-gradient(#86ff58,#0501ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+
+/* wjswkm */
+.question__p{
+    margin: 0 33px;
+    font-size: 1.688rem;
+    font-weight: 600;
+}
+.radio{   /***** Vicent perdona por poner porcentajes aqui :'(   *****/
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.label{
+    font-size: 1.313rem;
+    margin-left: 7px;
+}
+/* xbwzwkzm */
+.g--btn-red{
+    font-size: 1.25rem;
+    border: none;
+}
+.g--bg-red{
+    background-color: red;
+}
+.g--btn-red2{
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 0.813rem;
+
+}
+
+
+.g--fw-600{
+    font-weight: 600;
+}
+.g--hr-custom{
+    opacity: 1;
+    height: 6px !important;
+    border:none;
+}
+
+
+.g-width-55x{
+    width: 55%;
+  }
+.g--margin-left-330{
+    margin-left: 330px;
+}
+  /*MEDIA*/
+  @media (max-width: 992px) {
+    .g-width-55x{
+    width: 100%;
+  }
+  .g--margin-left-330{
+    margin-left: 0px;
+    padding:30px 20px;
+    background-image: url(../img/mountain.jpg);
+    background-size: cover;
+  }
+}
+
+
+/*SWIPER-SLIDE*/
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+.g--border-inset{
+    border: 7px inset !important;
+}
+
+
+
+
+.g--active a{
+    color: lightskyblue !important;
+}
+
+.g--border-bottom-darkgray{
+    border-bottom: 6px solid darkgray;
+}
+.g--border-top-black-1{
+    border-top: 1.5px solid black;
+}
+.g--border-bottom-black-1{
+    border-bottom: 1.5px solid black;
+}
+
+
+
+
+/* Todo lo relacionado con accordion */
+.card-header.collapsed {
+    background: white;
+    color: black;
+}
+/* #headingOne.collapsed {
+    background: #733d74 ;
+}
+#headingTwo.collapsed {
+    background: #be6b8b ;
+} */
+.card-header:not(.collapsed), .card-header:not(.collapsed) h2, .card-header:not(.collapsed) h5, .card-header:not(.collapsed) h6, .card-header:not(.collapsed) .icon-card {
+    background: black;
+    color: white!important;
+}
+.card-header:not(.collapsed) .btn-comprar-collapse{
+ display: none;
+}
+.card-header:not(.collapsed) .icon-card{
+    transform: rotate(90deg);
+}
+/* Fin accordion */
+
+
+.g--height-240{
+    height: 240px;
+}
+.g--cover{
+    object-fit: cover;
+}
+.g--hover-bg-primary:hover{
+    background-color:RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
+}
+
+
+.g--hover-transform:hover{
+    transform: translate(8px, -7px);
+}
+.g--transition{
+    transition: 0.7s;
+}
+
+.g--leter-spacing-2{
+    letter-spacing: 2px;
+}
+
+.g--font-size-50{
+    font-size: 50px !important;
+}
+.g--font-family-monoton{
+    font-family: 'Monoton', cursive;
+}
+.g--word-spacing{
+    word-spacing: 11px;  
+}
+
+
+
+/* nuecdn */
+
+
+.store, .forum, .joinUs{
+    font-family: 'Alfa Slab One', cursive;
+    border: 10px groove;
+    transition: 1.3s;
+    height: 30vh;
+}
+.store:hover, .forum:hover, .joinUs:hover{
+    transform: translate(25px);
+    -webkit-filter: grayscale(100%);
+}
+.store a, .forum a, .joinUs a{
+    text-decoration: none;
+    color: white;
+    font-size: 3.3rem;
+    text-shadow: 3px 3px #ff0000;
+    
+    line-height: 30vh;
+}
+.store{
+    background-image: url("../img/store.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.joinUs{
+    background-image: url("../img/joinUs.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.forum{
+    background-image: url("../img/forum.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.accordion-button {
+    font-size: inherit;
+}
+
+.accordion-item {
+    border: 1px solid rgba(35, 65, 100, .15)
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background: black !important;
+    color: #e8e8e8;
+}
+
+.accordion-button:not(.collapsed)::after  {
+    filter: brightness(00%) invert(70%);
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+@media (max-width: 767px) {
+    .accordion-body h3 {
+        font-size: calc(.95rem + 1.5vw);
+    }
+}
+
+.g-color-darkBlue{
+    background-color:rgba(18, 46, 3, 0.784);
+}
+
+.activeSection{
+    color:#ff74fc;
+}
+
+/* Carousel Slick */
+.slick-slide {
+    border: 1.5px solid #000;
+    margin: 0 6px;
+    box-sizing: border-box;
+  }
+.slick-next:before{
+  /* color: #ff74fc; */
+  color: black !important;
+  font-size: 23px;
+}
+.slick-prev:before{
+  /* color: #ff74fc; */
+  color: black !important;
+  font-size: 23px;
+}
+
+
+/* Estilo de los botones de paginacion Posts */
+.g--btn-paginacion__active{
+    background-color: white !important;
+    border: 1px solid black !important;
+}
+.g--btn-paginacion{
+    background-color: #126df4c0 !important;
+    border: 1px solid black !important;
+    color: white !important;
+}
+.g--btn-paginacion:hover{
+    background-color: white !important;
+    border: 1px solid black !important;
+    color: black !important;
+}
+
+
+/* Hace que se muestre las linéas de texto */
+.g--cut-text-to-3-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+.g--cut-text-to-1-lines1 {
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;  
+overflow: hidden;
+}
+.g--cut-text-to-2-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
