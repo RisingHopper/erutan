@@ -21,12 +21,16 @@ include $navbarInclude;
 
 
 
-
-
-
-
 include 'functions/claves.php';
 include 'functions/getPosts.php';
+include 'functions/addVisits.php';
+
+
+
+
+
+
+
 ?>
 
 <div class="container-fluid my-0 px-0">

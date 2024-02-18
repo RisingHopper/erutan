@@ -113,7 +113,7 @@ $langTxt = array(
         'option2'=>"Emus",
         'option3'=>"Arañas",
         'option4'=>"Canguros",
-        'option5'=>"Ninguna respuesta es correcta",
+        'option5'=>"Ninguna es correcta",
     ),
     //QUESTION CARD RESPUESTAS
     'respuestas'=>array(

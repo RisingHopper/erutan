@@ -62,6 +62,13 @@ class BaseModel extends DataBaseConection {
         return $result;
     }
 
+    public function insertarVisitas(){
+        $consulta="INSERT INTO views (ip) VALUES (ip+1)";
+        $result = $this->conexion->prepare($consulta);
+        $result->execute();
+        return $result;
+    }
+
 
 
 }

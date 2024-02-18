@@ -25,7 +25,6 @@ function validarNombre() {
 }
 function validarTelefono() {
     if (phoneInput.value.trim() === "") {
-        alert('ref');
         incompleteAlert( ( languageForSweetAlert == "en" ) ? "It is mandatory to fill the phone field" : "Es obligatorio rellenar el campo télefono" );
         return false;
     }
@@ -93,6 +92,7 @@ const addSatisfaccionForm = () => {
     formdataAccesibilidadForm.append("name", document.getElementById("nameForm").value);
     formdataAccesibilidadForm.append("email", document.getElementById("emailForm").value);
     formdataAccesibilidadForm.append("phone", document.getElementById("phoneForm").value);
+    formdataAccesibilidadForm.append("idioma", document.getElementById("languageForSweetAlert").innerHTML);
 
     let requestOptions = {
         method: 'POST',
