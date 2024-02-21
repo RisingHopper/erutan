@@ -39,7 +39,7 @@
                         <?=date("M d, Y", strtotime($postData[0]["published_at"]))?>
                     </p>
                     <div class="col-3 mx-auto">
-                        <img src="https://erutan.es/app/public/uploads/posts/<?= $postData[0]['img'] ?>" alt="" class="w-100 g--border-black">
+                        <img src="https://erutan.es/backend/public/uploads/posts/<?= $postData[0]['img'] ?>" alt="" class="w-100 g--border-black">
                     </div>
                     <div class="col-10 mt-4 mx-auto">
                         <h2 class="fw-bold text-center"><?=$postData[0]['title']?></h2>

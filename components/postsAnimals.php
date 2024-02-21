@@ -20,7 +20,7 @@
             <div class="col-12 col-md-4 mb-5 px-3 g--hover-transform g--transition">
                 <div class="card">
                     <?php if(!empty($dataPosts[$x]["img"])){ ?>
-                    <img class="card-img-top mx-auto mt-4 object-fit-cover" style="width:85%; height:270px;" src="https://erutan.es/app/public/uploads/posts/<?=$dataPosts[$x]["img"]?>">       
+                    <img class="card-img-top mx-auto mt-4 object-fit-cover" style="width:85%; height:270px;" src="https://erutan.es/backend/public/uploads/posts/<?=$dataPosts[$x]["img"]?>">       
                     <?php } ?>       
 
                     <div class="noticiaDescripcion card-body text-center">
